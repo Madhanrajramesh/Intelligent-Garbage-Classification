@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+
+    <script src="https://kit.fontawesome.com/8b9cdc2059.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- <script defer src="../static/js/main.js"></script> -->
+    <title>Garbage Classification</title>
+</head>
+<body>
+    <header id="head" class="header">
+   <section  id="navbar">
+           <h1 class="nav-heading"><i class="fas fa-recycle m2"></i>Garbage Classification</h1>
+       <div class="nav--items">
+           <ul>
+               <li><a href="#about">About</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#team">Team</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <li><a href="prediction.html" class="nav-button">Prediction</a></li>
+           </ul>
+       </div>
+   </section>
+   <section id="slider">
+    <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
+        <ol class="carousel-indicators ">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active "></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-caption d-none d-md-block">
+                <h3 class="font">Reuse the past, Recycle the present, Save the future.</h3>
+            </div>
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="../static/img/front (2).jpg" alt="First slide">
+            </div>
+        </div>
+    </div>
+    
+   </section>
+</header>
+<section id="about">
+    <div class="top">
+        <h3 class="title text-muted">
+            ABOUT PROJECT
+        </h3>
+        <div class="line"></div>
+    </div>
+<div class="body">
+<div class="left">
+    <h2>Problem:</h2>
+    <p>
+        According to projections for the next 25 years, waste accumulation in less developed countries is expected to increase significantly. With the rise in industrialization in urban areas, the management of solid waste, including paper, wood, plastic, metal, and glass, has become a major challenge. The conventional method of waste disposal, such as burning waste, contributes to air pollution and the release of hazardous materials that can have detrimental effects on human health, including the risk of cancer. Therefore, there is a need to recycle waste and separate it into different components for efficient recycling processes.
+    </p>    
+</div>
+<div class="right">
+    <h2>Solution:</h2>
+    <p>
+        The current approach to waste separation involves manual sorting by individuals, which exposes them to health risks due to the harmful substances present in the garbage. To address this issue, our project aims to develop an automated waste sorting system. This system will significantly reduce the time required for waste sorting and enhance the accuracy of the process compared to manual methods. By implementing this automated system, the recyclable waste can be efficiently separated, allowing for its proper recycling and conversion into energy and fuel, thereby contributing to the growth of the economy. The proposed system is based on the utilization of a combination of Convolutional Neural Network (CNN) algorithms, which enables effective waste separation and classification.
+    </p>
+</div>
+</div>
+</section>
+<section id="services">
+<h3 class="title text-muted">WE CLASSIFY</h3>
+<div class="line"></div>
+<div class="testimonials">
+    <div class="card" style="width: 25rem;">
+        <img src="../static/img/testimonials/cardboard.jpg" class="card-img-top" alt="cardboard">
+        <div class="card-body">
+          <h5 class="card-title text-muted">CardBoard</h5>
+          <p class="card-text">Cardboard, also referred to as corrugated cardboard, is a recyclable material that is recycled by small and large scale businesses to save money on waste disposal costs.</p>
+        </div>
+      </div>
+    <div class="card" style="width: 25rem;">
+        <img src="../static/img/testimonials/bottle.png" class="card-img-top" alt="bottle">
+        <div class="card-body">
+          <h5 class="card-title text-muted">Glass</h5>
+          <p class="card-text">Glass is found in municipal solid waste (MSW), primarily in the form of containers such as beer and soft drink bottles; wine and liquor bottles; and bottles and jars for food, cosmetics and other products.</p>
+        </div>
+      </div>
+    <div class="card" style="width: 25rem;">
+        <img src="../static/img/testimonials/metal.jpg" class="card-img-top" alt="metal">
+        <div class="card-body text-muted">
+          <h5 class="card-title">Metal</h5>
+          <p class="card-text">Metal waste/scrap waste can be subjected to the recycling process over and over again without changing its properties. Steel, for example, is one of the most recycled metals on the planet. Lorem ipsum dolor sit amet.</p>
+         
+        </div>
+      </div>
+    <div class="card" style="width: 25rem;">
+        <img src="../static/img/testimonials/page.jpg" class="card-img-top" alt="page">
+        <div class="card-body text-muted">
+          <h5 class="card-title">Paper</h5>
+          <p class="card-text">Paper Waste is a severe problem in many industries and offices. Because of printing mistakes, junk mails, billings, and packaging. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        
+        </div>
+      </div>
+    <div class="card" style="width: 25rem;">
+        <img src="../static/img/testimonials/plastic.jpg" class="card-img-top" alt="plastic">
+        <div class="card-body text-muted">
+          <h5 class="card-title">Plastic</h5>
+          <p class="card-text">Plastic waste, or plastic pollution, is the accumulation of plastic objects  in the Earth's environment that adversely affects wildlife, wildlife habitat, and humans.</p>
+         
+        </div>
+      </div>
+    <div class="card" style="width: 25rem;">
+        <img src="../static/img/testimonials/trash.jpg" class="card-img-top" alt="trash">
+        <div class="card-body text-muted">
+          <h5 class="card-title">Trash</h5>
+          <p class="card-text">Trash, rubbish, or refuse is waste material that is discarded by humans, usually due to a perceived lack of utility. Lorem ipsum dolor sit amet.</p>
+         
+        </div>
+      </div>
+</div>
+</section>
+
+<!-- Team  -->
+<section id="team">
+    <h3 class="title text-muted">WE ARE</h3>
+    <div class="line"></div>
+    <div class="testimonials">
+        <div class="card" style="width: 25rem;">
+            <img src="../static/img/h.png" class="card-img-top" alt="cardboard">
+            <div class="card-body">
+              <h5 class="card-title text-muted">Hema Hariharan S</h5>
+              <p class="card-text">Team Lead</p>
+              <p class="card-text">Deep Learning Developer</p>
+            </div>
+          </div>
+        <div class="card" style="width: 25rem;">
+            <img src="../static/img/m.png" class="card-img-top" alt="bottle">
+            <div class="card-body">
+              <h5 class="card-title text-muted">Madhan Raj R</h5>
+              <p class="card-text">Team Member</p>
+              <p class="card-text">Documentation Specalist</p>
+            </div>
+          </div>
+        <div class="card" style="width: 25rem;">
+            <img src="../static/img/j.png" class="card-img-top" alt="metal">
+            <div class="card-body text-muted">
+              <h5 class="card-title">Jeevanandham S</h5>
+              <p class="card-text">Team Member</p>
+              <p class="card-text">Graphics Designer</p>
+             
+            </div>
+          </div>
+        <div class="card" style="width: 25rem;">
+            <img src="../static/img/g.png"  width= "20rem" class="card-img-top" alt="page">
+            <div class="card-body text-muted">
+              <h5 class="card-title">Guruprasath</h5>
+              <p class="card-text">Team Member</p>
+              <p class="card-text">Assistive Technology Coordinator</p>
+            </div>
+          </div>
+    </div>
+    </section>
+
+
+<!-- Contact  -->
+<!-- Contact -->
+<section id="contact">
+    <h3 class="text-muted title">CONTACT US</h3>
+    <div class="line"></div>
+    <div class="contact-container">
+        <div class="contact-left">
+            <div class="items">
+                <div class="item-details">
+                    <p class="text-muted"><i class="fas fa-envelope fa"></i>  Enquiries: hemahariharansamson@gmail.com</p><br/>
+                    <p class="text-muted"><i class="fas fa-phone fa"></i>  Call Us: +919080602796</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <p>Copyright © 2023. All Rights Reserved</p>
+    <div class="social">
+        <a href="https://www.linkedin.com/in/hemahariharansamson/">
+            <i class="fab fa-2x  fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/HemahariharanSamson">
+            <i class="fab fa-2x  fa-github"></i>
+        </a>
+        <a href="	https://wa.me/+919080602796">
+            <i class="fab fa-2x  fa-whatsapp"></i>
+        </a>
+    </div>
+</section>
+</body>
+</html>
